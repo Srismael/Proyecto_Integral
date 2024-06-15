@@ -57,6 +57,14 @@ docs: añadir guía de contribución al proyecto
 - Instrucciones detalladas sobre cómo configurar el entorno de desarrollo.
 ```
 
+## Al contribuir varias personas dentro del commit
+
+```plaintext
+(Mensaje del commit)
+
+Este commit fue Realizado por Nombre1 y Nombre2
+```
+
 # Buenas Prácticas al Escribir Mensajes de Commit
 ## Al seguir buenas prácticas al escribir mensajes de commit, puedes mejorar la claridad y la consistencia en tu historial de cambios. Aquí algunas recomendaciones:
 
