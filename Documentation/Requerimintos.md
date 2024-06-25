@@ -1,8 +1,8 @@
-#Requerimientos funcionales 
-##Clean Squad 
+# Requerimientos funcionales 
+## Clean Squad 
 landing page (Modo de contacto)
 
-##Tareas grupales 
+## Tareas grupales 
 Tareas
 -Prioridad
 --Alta
@@ -17,7 +17,7 @@ Tareas
 GoogleMaps
 Chat interno
 
-##Inicio de Sesión
+## Inicio de Sesión
 Usuario
 -Iniciar Sesión (con email)
 -Personalizar perfil
@@ -27,7 +27,7 @@ Admin
 -Eliminar usuarios
 Cierre de sesión después de una hora
 
-##Roles
+## Roles
 Admin
 -Ver tareas grupales 
 -Administrar usuarios 
@@ -37,18 +37,18 @@ Usuario
 -Tareas individuales (ver y modificar)
 -Ver tarea grupal (ver todas las tareas)
 
-##Requerimientos no funcionales
-###Seguridad
+## Requerimientos no funcionales
+### Seguridad
 Solo usuarios y administradores pueden acceder al sistema.
 Usuarios no tienen acceso a ciertas acciones que sí tienen los Administradores.
 
-###Integridad de datos
+### Integridad de datos
 Uso de algoritmos de encriptación para proteger las contraseñas de los usuarios.
-###Usabilidad
+### Usabilidad
 El sistema está diseñado para que personas no tan expertas en tecnologías puedan entenderla.
 
 #Componentes
-##Vistas
+## Vistas
 Login
 Perfiles 
 Actividades (tareas)
@@ -60,11 +60,11 @@ Gráficas y estadísticas (Solo Admin)
 Empleados(Solo Admin)
 Landing page (Tal vez no implementarla)
 
-##No vistas 
+## No vistas 
 Envío de correos
 Google maps 
 
-#APIs
+# APIs
 Empleados/Cliente API
 Tareas API
 Chat API
