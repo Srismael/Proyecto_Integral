@@ -4,38 +4,38 @@ landing page (Modo de contacto)
 
 ## Tareas grupales 
 Tareas
--Prioridad
---Alta
---Media
---Baja
--Estado
---Pendiente
---Completato
---Suspendida
---Retrasada
--Notificaciones (email, WhatsApp)
+- Prioridad
+Alta
+Media
+Baja
+- Estado
+Pendiente
+Completato
+Suspendida
+Retrasada
+- Notificaciones (email, WhatsApp)
 GoogleMaps
 Chat interno
 
 ## Inicio de Sesión
 Usuario
--Iniciar Sesión (con email)
--Personalizar perfil
+- Iniciar Sesión (con email)
+- Personalizar perfil
 Admin
--Iniciar Sesión
--Registrar usuarios (Comprobar por medio de email)
--Eliminar usuarios
+- Iniciar Sesión
+- Registrar usuarios (Comprobar por medio de email)
+- Eliminar usuarios
 Cierre de sesión después de una hora
 
 ## Roles
 Admin
--Ver tareas grupales 
--Administrar usuarios 
--Ver estadísticas
+- Ver tareas grupales 
+- Administrar usuarios 
+- Ver estadísticas
 Usuario
--Perfil (Solo mostrar nombre de usuario y email para otros usuarios)
--Tareas individuales (ver y modificar)
--Ver tarea grupal (ver todas las tareas)
+- Perfil (Solo mostrar nombre de usuario y email para otros usuarios)
+- Tareas individuales (ver y modificar)
+- Ver tarea grupal (ver todas las tareas)
 
 ## Requerimientos no funcionales
 ### Seguridad
@@ -52,10 +52,10 @@ El sistema está diseñado para que personas no tan expertas en tecnologías pue
 Login
 Perfiles 
 Actividades (tareas)
--Todas las tareas grupales (Solo Admin)
--Tareas grupales 
---Chat Grupal
--Tareas individuales 
+- Todas las tareas grupales (Solo Admin)
+- Tareas grupales 
+Chat Grupal
+- Tareas individuales 
 Gráficas y estadísticas (Solo Admin)
 Empleados(Solo Admin)
 Landing page (Tal vez no implementarla)
