@@ -50,12 +50,12 @@ El sistema está diseñado para que personas no tan expertas en tecnologías pue
 #Componentes
 ## Vistas
 Login
+Registro
 Perfiles 
 Actividades (tareas)
-- Todas las tareas grupales (Solo Admin)
-- Tareas grupales 
+- Todas las tareas grupales
+- Tareas 
 Chat Grupal
-- Tareas individuales 
 Gráficas y estadísticas (Solo Admin)
 Empleados(Solo Admin)
 Landing page (Tal vez no implementarla)
@@ -68,4 +68,4 @@ Google maps
 Empleados/Cliente API
 Tareas API
 Chat API
-
+Paquetes API
