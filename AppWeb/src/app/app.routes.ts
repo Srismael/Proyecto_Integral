@@ -4,6 +4,7 @@ import { EmpleadosComponentComponent } from './components/empleados-component/em
 import { RegistroComponentComponent } from './components/registro-component/registro-component.component';
 
 
+
 export const routes: Routes = [
     {path: '', component:LandingPageComponentComponent},
     {path: 'empleados', component:EmpleadosComponentComponent},
