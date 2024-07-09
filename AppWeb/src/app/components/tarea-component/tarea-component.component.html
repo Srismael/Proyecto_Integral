@@ -1,1 +1,32 @@
 <p>tarea-component works!</p>
+<mat-card>
+    <mat-card-title>Agregar tarea</mat-card-title>
+    <mat-card-content>
+      <form>
+        <mat-form-field appearance="fill">
+          <mat-label>Tipo de tarea</mat-label>
+          <mat-select>
+            <mat-option value="opcion1">Individual</mat-option>
+            <mat-option value="opcion2">Grupal</mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre del empleado</mat-label>
+          <input matInput>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Tarea a realizar</mat-label>
+          <input matInput>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Descripción</mat-label>
+          <textarea matInput></textarea>
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary">Crear</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
