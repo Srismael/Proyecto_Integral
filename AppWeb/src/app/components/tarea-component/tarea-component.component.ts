@@ -20,6 +20,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatButtonModule,
     MatCardModule,
     MatSelectModule,
+    
   ],
   templateUrl: './tarea-component.component.html',
   styleUrl: './tarea-component.component.css'
