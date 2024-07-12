@@ -1,8 +1,10 @@
-<section>
-    <div class="example-label">Basic</div>
-    <div class="example-button-row">
-      <button mat-button>Basic</button>
-      <button mat-button disabled>Disabled</button>
-      <a mat-button href="https://www.google.com/" target="_blank">Link</a>
-    </div>
-  </section>
+<mat-card class="profile-card">
+  <div class="profile-image-container">
+    <img src="https://th.bing.com/th/id/R.b87e37c003eed870815bb453bc9cdb5b?rik=aCd1BTWa%2bY8xBA&pid=ImgRaw&r=0" alt="Imagen de perfil" class="profile-image">
+  </div>
+  <mat-card-content class="profile-details">
+    <mat-card-title class="profile-name">{{ nombre }} {{ apellidos }}</mat-card-title>
+    <mat-card-subtitle class="profile-email">{{ correo }}</mat-card-subtitle>
+    <p class="profile-address">{{ direccion }}</p>
+  </mat-card-content>
+</mat-card>
