@@ -1,10 +1,28 @@
-<mat-card class="profile-card">
-  <div class="profile-image-container">
-    <img src="https://th.bing.com/th/id/R.b87e37c003eed870815bb453bc9cdb5b?rik=aCd1BTWa%2bY8xBA&pid=ImgRaw&r=0" alt="Imagen de perfil" class="profile-image">
-  </div>
-  <mat-card-content class="profile-details">
-    <mat-card-title class="profile-name">{{ nombre }} {{ apellidos }}</mat-card-title>
-    <mat-card-subtitle class="profile-email">{{ correo }}</mat-card-subtitle>
-    <p class="profile-address">{{ direccion }}</p>
-  </mat-card-content>
-</mat-card>
+<mat-sidenav-container class="mat-app-background">
+
+  <mat-sidenav-content>
+    <!-- Barra superior -->
+    <mat-toolbar color="primary" class="fixed-toolbar">
+      <span>Empleados</span>
+    </mat-toolbar>
+
+    <!-- Sección de perfil -->
+    <div class="profile-section">
+      <!-- Contenedor de la imagen de perfil -->
+      <div class="profile-image">
+        <img src="" alt="">
+        <button mat-raised-button>Cambiar imagen</button>
+        <div class="organization-name">CLEAN_SQUAD</div>
+      </div>
+
+      <!-- Contenedor de los detalles del perfil -->
+      <div class="profile-details">
+        <div class="placeholder">Nombre</div>
+        <div class="placeholder">Apellido</div>
+        <div class="placeholder">E-mail</div>
+        <div class="placeholder">Dirección</div>
+        <div class="placeholder">Teléfono</div>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
