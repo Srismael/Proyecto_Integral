@@ -3,11 +3,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatGridList } from '@angular/material/grid-list';
 
 @Component({
   selector: 'app-landing-page-component',
   standalone: true,
-  imports: [MatToolbarModule, MatButtonModule, MatCardModule, MatGridListModule],
+  imports: [MatToolbarModule, MatButtonModule, MatCardModule, MatGridListModule, MatGridList],
   templateUrl: './landing-page-component.component.html',
   styleUrl: './landing-page-component.component.css'
 })
